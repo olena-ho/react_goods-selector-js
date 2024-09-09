@@ -21,7 +21,7 @@ export const App = () => {
 
   return (
     <main className="section container">
-      {selectedGood === '' ? (
+      {!selectedGood ? (
         <h1 className="title is-flex is-align-items-center">
           No goods selected
         </h1>
